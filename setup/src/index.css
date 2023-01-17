@@ -221,7 +221,7 @@ Jobs
 @media screen and (min-width: 992px) {
   .jobs-center {
     width: 90vw;
-    display: grid;
+    display: row;
     grid-template-columns: 200px 1fr;
     column-gap: 4rem;
   }
@@ -264,4 +264,4 @@ Jobs
   background: var(--clr-primary-8);
 }
 .center-btn {
-}
+};
