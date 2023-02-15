@@ -19,7 +19,6 @@ function App() {
       </section>
     );
   }
-
   const { company, dates, duties, title } = data[value];
   return (
     <section className='section'>
@@ -49,11 +48,9 @@ function App() {
             return (
               <div key={index} className='job-desc'>
                 <FaAngleDoubleRight className='job-icon'>
-
                 </FaAngleDoubleRight>
                 <p>{duty}</p>
               </div>
-
             )
           })}
         </article>
